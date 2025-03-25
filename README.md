@@ -9,10 +9,10 @@ Ce portfolio est une application web simple qui me permet de partager mes travau
 
 ## Fonctionnalités
 
-- **Présentation personnelle** : Une section dédiée à la présentation de mes compétences et expériences.
-- **Projets** : Une galerie de projets que j'ai réalisés, avec des descriptions et des liens vers les dépôts GitHub ou les sites en ligne.
-- **CV** : Une version en ligne de mon CV, téléchargeable au format PDF.
-- **Contact** : Un formulaire de contact pour me joindre facilement.
+- Présentation personnelle : Une section dédiée à la présentation de mes compétences et expériences.
+- Projets : Une galerie de projets que j'ai réalisés, avec des descriptions et des liens vers les dépôts GitHub ou les sites en ligne.
+- CV : Une version en ligne de mon CV, téléchargeable au format PDF.
+- Contact : Un formulaire de contact pour me joindre facilement.
 
 ## Prérequis
 
@@ -23,14 +23,14 @@ Ce portfolio est une application web simple qui me permet de partager mes travau
 
 Pour installer et exécuter ce projet localement, suivez ces étapes :
 
-1. **Cloner le dépôt** :
+1. Cloner le dépôt :
 
    ```bash
    git clone https://github.com/Nathan-Tison/portfolio.git
    cd portfolio
    ```
 
-2. **Installer les dépendances** :
+2. Installer les dépendances :
 
    ```bash
    npm install
@@ -42,7 +42,7 @@ Pour installer et exécuter ce projet localement, suivez ces étapes :
    yarn install
    ```
 
-3. **Démarrer le serveur de développement** :
+3. Démarrer le serveur de développement :
 
    ```bash
    npm start
@@ -54,7 +54,7 @@ Pour installer et exécuter ce projet localement, suivez ces étapes :
    yarn start
    ```
 
-4. **Accéder à l'application** :
+4. Accéder à l'application :
 
    Ouvrez votre navigateur et allez à l'adresse `http://localhost:3000` pour voir le portfolio en action.
 
@@ -62,13 +62,13 @@ Pour installer et exécuter ce projet localement, suivez ces étapes :
 
 Pour déployer ce projet sur GitHub Pages, suivez ces étapes :
 
-1. **Créer une build de production** :
+1. Créer une build de production :
 
    ```bash
    npm run build
    ```
 
-2. **Déployer sur GitHub Pages** :
+2. Déployer sur GitHub Pages :
 
    - Allez dans les paramètres de votre dépôt GitHub.
    - Sous "Pages", sélectionnez la branche `main` et le dossier `/build` comme source.
@@ -98,16 +98,3 @@ Pour toute question ou suggestion, n'hésitez pas à me contacter via [mon profi
 
 Merci d'avoir visité mon portfolio ! 🚀
 ```
-
-### Explications
-
-- **Aperçu** : Une brève description du projet.
-- **Fonctionnalités** : Les principales caractéristiques du projet.
-- **Prérequis** : Les outils nécessaires pour exécuter le projet.
-- **Installation** : Les étapes pour installer et exécuter le projet localement.
-- **Déploiement** : Instructions pour déployer le projet sur GitHub Pages.
-- **Contribuer** : Guide pour contribuer au projet.
-- **Licence** : Informations sur la licence du projet.
-- **Contact** : Comment contacter l'auteur du projet.
-
-Ce fichier `README.md` fournit toutes les informations nécessaires pour comprendre, installer et contribuer à votre projet.
