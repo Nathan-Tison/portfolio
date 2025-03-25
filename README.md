@@ -1,5 +1,3 @@
-Voici un exemple complet de fichier `README.md` pour votre projet de portfolio. Ce fichier inclut toutes les sections nécessaires pour fournir une vue d'ensemble complète de votre projet, y compris les instructions d'installation, d'utilisation et de contribution.
-
 ```markdown
 # Portfolio de Nathan Tison
 
