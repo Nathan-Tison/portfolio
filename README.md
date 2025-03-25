@@ -97,4 +97,3 @@ Pour toute question ou suggestion, n'hésitez pas à me contacter via [mon profi
 ---
 
 Merci d'avoir visité mon portfolio ! 🚀
-```
