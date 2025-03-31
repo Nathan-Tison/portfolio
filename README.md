@@ -3,23 +3,23 @@
 
 Bienvenue sur le dépôt GitHub de mon portfolio personnel ! Ce projet est développé avec React.js et présente mes compétences, projets et expériences professionnelles.
 
-## Aperçu
+Aperçu
 
 Ce portfolio est une application web simple qui me permet de partager mes travaux et compétences avec le monde entier. Il est conçu pour être réactif et accessible sur tous les appareils.
 
-## Fonctionnalités
+Fonctionnalités
 
 - Présentation personnelle : Une section dédiée à la présentation de mes compétences et expériences.
 - Projets : Une galerie de projets que j'ai réalisés, avec des descriptions et des liens vers les dépôts GitHub ou les sites en ligne.
 - CV : Une version en ligne de mon CV, téléchargeable au format PDF.
 - Contact : Un formulaire de contact pour me joindre facilement.
 
-## Prérequis
+Prérequis
 
 - Node.js (version 14 ou supérieure)
 - npm (version 6 ou supérieure) ou yarn
 
-## Installation
+Installation
 
 Pour installer et exécuter ce projet localement, suivez ces étapes :
 
@@ -58,7 +58,7 @@ Pour installer et exécuter ce projet localement, suivez ces étapes :
 
    Ouvrez votre navigateur et allez à l'adresse `http://localhost:3000` pour voir le portfolio en action.
 
-## Déploiement
+Déploiement
 
 Pour déployer ce projet sur GitHub Pages, suivez ces étapes :
 
@@ -76,7 +76,7 @@ Pour déployer ce projet sur GitHub Pages, suivez ces étapes :
 
 Votre portfolio sera alors accessible via une URL GitHub Pages.
 
-## Contribuer
+Contribuer
 
 Les contributions sont les bienvenues ! Pour contribuer :
 
@@ -86,11 +86,11 @@ Les contributions sont les bienvenues ! Pour contribuer :
 4. Poussez vers la branche (`git push origin feature/AmazingFeature`).
 5. Ouvrez une Pull Request.
 
-## Licence
+Licence
 
 Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
-## Contact
+Contact
 
 Pour toute question ou suggestion, n'hésitez pas à me contacter via [mon profil GitHub](https://github.com/Nathan-Tison).
 

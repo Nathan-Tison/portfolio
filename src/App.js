@@ -2,6 +2,11 @@ import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import NavBar from "./components/Navbar";
 import Home from "./components/Home/Home";
+import PresentationGIM from "./components/PresentationGIM";
+import Projects from "./components/Projects/Projects";
+import Resume from "./components/Resume/ResumeNew";
+import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 import R101 from "./components/SAEs/saes/R101";
 import R102 from "./components/SAEs/saes/R102";
 import R103 from "./components/SAEs/saes/R103";
@@ -38,10 +43,6 @@ import Semestre3 from "./components/SAEs/semestres/semestre3";
 import Semestre4 from "./components/SAEs/semestres/semestre4";
 import Semestre5 from "./components/SAEs/semestres/semestre5";
 import Semestre6 from "./components/SAEs/semestres/semestre6";
-import Projects from "./components/Projects/Projects";
-import Resume from "./components/Resume/ResumeNew";
-import Footer from "./components/Footer";
-import ScrollToTop from "./components/ScrollToTop";
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import "./style.css";
 import "./App.css";
@@ -54,7 +55,6 @@ function App() {
     const timer = setTimeout(() => {
       updateLoad(false);
     }, 1200);
-
     return () => clearTimeout(timer);
   }, []);
 
@@ -67,6 +67,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
+          <Route path="/presentation-gim" element={<PresentationGIM />} />
           <Route path="/sae/R1.01" element={<R101 />} />
           <Route path="/sae/R1.02" element={<R102 />} />
           <Route path="/sae/R1.03" element={<R103 />} />
