@@ -3,10 +3,8 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
 import { AiFillStar, AiOutlineHome } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
 import logo from "../Assets/logo.png";
@@ -74,8 +72,20 @@ function NavBar() {
             <Nav.Link as={Link} to="/presentation-gim" onClick={() => updateExpanded(false)}>
               Présentation du BUT GIM
             </Nav.Link>
-            <Nav.Link href="https://github.com/Nathan-Tison/portfolio" target="_blank" className="fork-btn-inner">
-              <CgGitFork style={{ fontSize: "1.2em" }} /> <AiFillStar style={{ fontSize: "1.1em" }} />
+            <Nav.Link
+              href="https://github.com/Nathan-Tison/portfolio"
+              target="_blank"
+              className="fork-btn-inner"
+              style={{
+                padding: "20px 10px",
+                fontSize: "1.4em",
+                backgroundColor: "#f5f5f5",
+                borderRadius: "10px",
+                maxHeight: "50px",
+              }}
+              
+            >
+              <CgGitFork style={{ fontSize: "1em" }} /> <AiFillStar style={{ fontSize: "0.9em" }} />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
